@@ -4,13 +4,13 @@ using namespace std;
 int factorial(int);
 
 int main() {
-    int n, result;
+    int number, result;
 
     cout << "Enter a non-negative number: ";
-    cin >> n;
+    cin >> number;
 
-    result = factorial(n);
-    cout << "Factorial of " << n << " = " << result;
+    result = factorial(number);
+    cout << "Factorial of " << number << " = " << result;
     return 0;
 }
 
